@@ -4,7 +4,7 @@ import { Context } from "../../main";
 import { Navigate } from "react-router-dom";
 import HeroSection from "./HeroSection";
 import HowItWorks from "./HowItWorks";
-import PopularCategories from "./PopularCategories";
+import PopularCategories from "./PopularCatogories";
 import PopularCompanies from "./PopularCompanies";
 
 const Home = () => {
