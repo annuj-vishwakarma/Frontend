@@ -53,7 +53,7 @@ const Register = () => {
       <section className="authPage">
         <div className="container">
           <div className="header">
-            <img src="/JobZeelogo.png" alt="logo" />
+            <img src="https://skilldb-ai-cms.s3.ap-south-1.amazonaws.com/jobtatkal_logo_7441b8c55c.svg" alt="logo" />
             <h3>Create a new account</h3>
           </div>
           <form>
@@ -123,7 +123,7 @@ const Register = () => {
           </form>
         </div>
         <div className="banner">
-          <img src="/register.png" alt="login" />
+          <img src="https://img.freepik.com/free-vector/login-concept-illustration_114360-739.jpg" alt="login" />
         </div>
       </section>
     </>
