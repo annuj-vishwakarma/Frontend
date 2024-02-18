@@ -53,7 +53,7 @@ const Register = () => {
       <section className="authPage">
         <div className="container">
           <div className="header">
-            <img src="https://skilldb-ai-cms.s3.ap-south-1.amazonaws.com/jobtatkal_logo_7441b8c55c.svg" alt="logo" />
+            <img src="/JobZeelogo.png" alt="logo" />
             <h3>Create a new account</h3>
           </div>
           <form>
@@ -73,7 +73,7 @@ const Register = () => {
               <div>
                 <input
                   type="text"
-                  placeholder="Anuj"
+                  placeholder="Zeeshan"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -85,7 +85,7 @@ const Register = () => {
               <div>
                 <input
                   type="email"
-                  placeholder="anuj123@gmail.com"
+                  placeholder="zk@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -123,7 +123,7 @@ const Register = () => {
           </form>
         </div>
         <div className="banner">
-          <img src="https://img.freepik.com/free-vector/login-concept-illustration_114360-739.jpg" alt="login" />
+          <img src="/register.png" alt="login" />
         </div>
       </section>
     </>
