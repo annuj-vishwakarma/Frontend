@@ -22,7 +22,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/v1/user/register",
+        "/api/v1/user/register",
         { name, phone, email, role, password },
         {
           headers: {
@@ -38,14 +38,15 @@ const Register = () => {
       setPhone("");
       setRole("");
       setIsAuthorized(true);
+      if(isAuthorized){
+        return <Navigate to={'/'}/>
+      }
     } catch (error) {
       toast.error(error.response.data.message);
     }
   };
 
-  if(isAuthorized){
-    return <Navigate to={'/'}/>
-  }
+ 
 
 
   return (
