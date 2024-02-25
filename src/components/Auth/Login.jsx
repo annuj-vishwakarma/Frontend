@@ -19,7 +19,7 @@ const Login = () => {
     try {
       const { data } = await axios.post(
         "http://localhost:4000/api/v1/user/login",
-        { email,password,role },
+        { email,password, role },
         {
           headers: {
             "Content-Type": "application/json",
@@ -33,8 +33,7 @@ const Login = () => {
       setRole("");
       setIsAuthorized(true);
     } catch (error) {
-      // toast.error(error.response.data.message);
-      console.log("hcsdvvsdj")
+      toast.error(error.response.data.message);
     }
   };
 
