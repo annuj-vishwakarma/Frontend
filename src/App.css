@@ -234,9 +234,9 @@ p {
     text-align: center;
   }
 }
-/* .navbarHide {
+.navbarHide {
   display: none;
-} */
+}
 
 .heroSection {
   display: flex;
