@@ -42,7 +42,7 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="image">
-            <img src="/heroS.jpg" alt="hero" />
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/online-job-search-4836622-4032953.png" alt="hero" />
           </div>
         </div>
         <div className="details">
